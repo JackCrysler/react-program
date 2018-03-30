@@ -1,0 +1,22 @@
+#search{
+    header{
+        padding: 10px;
+        input{
+            margin: 0.1rem;
+        }
+    }
+    p{
+        line-height: 40px;
+    }
+    li{
+        float: left;
+        padding: 5px 10px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        margin: 5px;
+    }
+    .icon-tips{
+        float: right;
+        padding: 0 10px;
+    }
+}

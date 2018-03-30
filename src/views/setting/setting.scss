@@ -1,0 +1,21 @@
+@import '../../static/css/virables.scss';
+#setting{
+    header{
+        line-height: 0.9rem;
+        text-align: center;
+        background: #fefefe;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+    }
+    .logout{
+        background: $baseColor;
+        color: #fff;
+        outline: none;
+        border: none;
+        display: block;
+        width: 80%;
+        padding: 0.2rem 0;
+        margin: 3rem auto 0;
+
+    }
+}

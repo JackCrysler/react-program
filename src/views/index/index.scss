@@ -1,0 +1,31 @@
+
+#index{
+    display: flex;
+    flex-direction: column;
+    .content{
+        flex: 1;
+        width: 100%;
+        overflow: auto;
+    }
+    .nav{
+        height: .96rem;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        li{
+            flex: 1;
+        }
+        span{
+            display: block;
+            font-size: 0.26rem;
+        }
+        .iconfont{
+            font-size: 0.4rem;
+        }
+    }
+    .tab-active{
+        color:#fc4141;
+        text-decoration: none;
+    }
+}

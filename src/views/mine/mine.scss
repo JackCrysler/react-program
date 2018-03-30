@@ -1,0 +1,52 @@
+#mine{
+    background: #eee;
+    header{
+        line-height: 0.9rem;
+        text-align: center;
+        background: #fefefe;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+    }
+    .icon-setting{
+        position: absolute;
+        padding: 0 20px;
+        height: 100%;
+        left: 0;
+        font-size: 0.34rem; 
+    }
+    .user-info{
+        background: #fff;
+        text-align: center;
+        font-size: 0.36rem;
+        border-bottom: 1px solid #ccc;
+        padding: 5px 0;
+        dt{
+            height: 2rem;
+            margin: 10px 0;
+            background: url('../../static/img/3.png') no-repeat center center;
+            background-size: contain;
+        }
+    }
+    .account-manage{
+        background: #fff;
+        margin-top: 0.2rem;
+        width: 100%;
+        li{
+            line-height: 0.9rem;
+            height: 0.9rem;
+            width: 100%;
+            display: flex;
+            p{
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                flex: 1;
+            }
+            .iconfont{
+                padding: 0 0.2rem;
+            }
+            .title{
+                flex: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+#delivery{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    flex-direction: column;
+
+    section{
+        flex: 1;
+        overflow: auto;
+        
+        li{
+            border-bottom: 1px solid #ccc;
+            padding: 0.1rem 0.2rem;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                span{
+                    border: 1px solid #ccc;
+                    font-size: 0.28rem;
+                    padding: 0 0.1rem;
+                    margin: 0 0.1rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    
+}

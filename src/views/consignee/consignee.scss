@@ -1,0 +1,21 @@
+#consignee{
+    background: #f4f4f4;
+    height: 100%;
+    input{
+        outline: none;
+        border: 1px solid #eee;
+        display: block;
+        height: 0.6rem;
+        width: 80%;
+        margin: 0.2rem auto 0;
+        padding: 0 0.2rem
+    }
+    select{
+        float: left;
+        width: 40%;
+        height: 0.6rem;
+        margin: 0.2rem 5%;
+        border: 1px solid #eee;
+        outline: none;
+    }
+}

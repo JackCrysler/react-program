@@ -1,0 +1,120 @@
+@import '../../static/css/virables.scss';
+
+$baseNum:0.5rem;
+%flex{
+    display: flex;
+}
+%center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cart{
+    @extend %flex;
+    flex-direction: column;
+    height: 100%;
+    header{
+        line-height: 0.9rem;
+        text-align: center;
+        background: #fefefe;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+    }
+    footer{
+        height:.9rem;
+        line-height: 0.9rem;
+        text-align: center;
+        background: #fefefe;
+        border-top: 1px solid #ddd;
+        @extend %flex;
+        @extend %center;
+        >div{
+            flex: 1;
+            @extend %flex;
+            @extend %center;
+        }
+    }
+    .goods-list{
+        flex: 1;
+        height: 100%;
+        overflow: auto;
+        li{
+            border-bottom: 1px solid #eee;
+        }
+    }
+    .edit{
+        position: absolute;
+        right: 0;
+        height: 100%;
+        padding: 0 20px;
+    }
+    li{
+        @extend %flex;
+        @extend %center;
+        padding: 10px;
+    }
+    .select-btn{
+        height: $baseNum;
+        width: $baseNum;
+        display: inline-block;
+        border-radius: 100%;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: $baseNum;
+        line-height: 0.55rem;
+        font-size: 0.3rem;
+        margin: 0 0.1rem;
+    }
+    .icon-selected{
+        background: $baseColor;
+        color: #fff;
+        border-color: $baseColor;
+    }
+    .goods-img{
+        height: 2rem;
+        width: 2rem;
+        margin: 0 .1rem;
+        border: 1px solid #ccc;
+        border-radius:3px;
+        overflow: hidden;
+    }
+    .flex{
+        @extend %flex;
+    }
+    .right-area{
+        flex: 1;
+        line-height: 0.8rem;
+        font-size: 0.3rem;
+        overflow: hidden;
+        p{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+    }
+    .price-box{
+        flex: 2;
+        color:$baseColor;
+    }
+    .count-box{
+        flex:3;
+        span{
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            line-height: 1;
+        }
+    }
+    .total-cost{
+        flex: 1;
+    }
+    .cart-btn{
+        float: right;
+        height: 100%;
+        padding: 0 0.5rem;
+        background:$baseColor;
+        color:#fff;
+    }
+}
